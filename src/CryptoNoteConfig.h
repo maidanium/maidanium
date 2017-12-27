@@ -9,6 +9,9 @@
 
 namespace CryptoNote {
 namespace parameters {
+  
+const char GENESIS_COINBASE_TX_HEX[] = "013c01ff0001a001029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101d3bed4dd7d2b75809cbd39b99764774743cc8756429d90c5c14c3cfd10ce5e0d";
+
 
 const uint64_t CRYPTONOTE_MAX_BLOCK_NUMBER                   = 500000000;
 const size_t   CRYPTONOTE_MAX_BLOCK_BLOB_SIZE                = 500000000;
